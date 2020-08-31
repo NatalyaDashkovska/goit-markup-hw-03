@@ -41,6 +41,7 @@ body {
   font-weight: 700;
   text-decoration: none;
   outline: 2px solid tomato;
+  display: flex;
 }
 
 .logo-span {
@@ -58,6 +59,12 @@ body {
   margin: 0;
 }
 
+.main-nav {
+  display: flex;
+  align-items: flex-start;
+  background-color: yellow;
+}
+
 /* site nav */
 .site-nav .link,
 .auth-nav .link {
@@ -68,6 +75,26 @@ body {
   line-height: 1.14;
   text-decoration: none;
   outline: 2px solid tomato;
+  display: block;
+  background-color: blue;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.site-nav {
+  display: flex;
+}
+
+.auth-nav {
+  display: flex;
+}
+
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.auth-nav .item + .item {
+  margin-left: 47px;
 }
 
 .site-nav .link:hover,
