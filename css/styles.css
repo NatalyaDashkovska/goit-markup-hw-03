@@ -64,6 +64,10 @@ body {
   align-items: center;
 }
 
+.header {
+  outline: 1px solid #ececec;
+}
+
 /* site nav */
 .site-nav .link,
 .auth-nav .link {
@@ -127,11 +131,16 @@ body {
 
   margin-top: 0px;
   margin-bottom: 30px;
+  padding-top: 200px;
 }
 
 .hero-container {
   background-color: salmon;
   text-align: center;
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Section */
@@ -283,6 +292,9 @@ body {
   margin-right: 8px;
   display: inline;
 }
+.hero-container .button {
+  margin-top: 30px;
+}
 
 .portfolio .title {
   font-weight: 700;
@@ -333,6 +345,7 @@ body {
   width: calc((100% - 30px * 2) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
+  outline: 1px solid #eeeeee;
 }
 
 .portfolio .item:nth-child(3n) {
