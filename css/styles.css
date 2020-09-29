@@ -156,7 +156,8 @@ body {
   margin-top: 0px;
 }
 .section {
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
+  padding-bottom: 94px;
 }
 .transparent-title {
   color: transparent;
@@ -292,9 +293,9 @@ body {
   margin-right: 8px;
   display: inline;
 }
-.hero-container .button {
+/* .hero-container .button {
   margin-top: 30px;
-}
+} */
 
 .portfolio .title {
   font-weight: 700;
@@ -337,7 +338,6 @@ body {
   flex-wrap: wrap;
   /* background-color: chartreuse; */
   font-size: 0;
-  margin-bottom: 94px;
 }
 
 .portfolio .item,
